@@ -6,6 +6,8 @@ namespace May4
     {
          public static void Main(string[] args)
         {
+            String str = "azor";
+            Console.WriteLine(str);
             Console.WriteLine("Hello World!");
         }
     }
