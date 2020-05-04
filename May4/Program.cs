@@ -21,7 +21,7 @@ namespace May4
                 }
             }
             Console.WriteLine(str);
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Bye world!");
         }
     }
 }
