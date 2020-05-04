@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.Http;
 
 namespace May4
 {
@@ -7,6 +8,8 @@ namespace May4
          public static void Main(string[] args)
         {
             String str = "azor";
+            var httpClient = new HttpClient();
+            httpClient.GetAsync("https://www.pja.edu.pl");
             Console.WriteLine(str);
             Console.WriteLine("Hello World!");
         }
